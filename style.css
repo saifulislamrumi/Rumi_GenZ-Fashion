@@ -5,26 +5,37 @@ body {
   /* width: 100%; */
   margin: auto;
 }
+ .topbar-container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      /* padding: 10px 20px; */
+      /* width: 1440px; */
+      /* height: 100px;
+      background-color: #ec1bc3; */
+      /* padding-left: 110px;
+      padding-right: 150px; */
+      width: 100%;
+      max-width: 1140px;
+      font-family: Arial, Helvetica, sans-serif;
+      /* border: 5px solid red ; */
+      /* justify-content: space-between; */
+ }
+
 .top-var {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* padding: 10px 20px; */
-  /* width: 1440px; */
-  height: 100px;
-  background-color: #fffbf0;
-  padding-left: 110px;
-  padding-right: 150px;
-  width: 100%;
-  /* max-width: 1440px; */
-  font-family: Arial, Helvetica, sans-serif;
-}
+       display: flex;
+      height: 100px;
+      background-color: #fffbf0;
+      justify-content: center;
+      /* border: 5px solid red ; */
+      
+      
+    }
 .brand_name {
   display: flex;
-  margin-left: 360px;
   align-items: center;
   gap: 8px;
-
+   /* border: 5px solid red ; */
   font-size: 30px;
 }
 .gen {
@@ -47,18 +58,22 @@ body {
 .logo {
   width: 55.936px;
   height: 39.266px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   background-image: url("logo_icon.png");
-  margin-top: 10px;
+  /* margin-top: 10px; */
   background-size: contain;
   background-repeat: no-repeat;
 }
-.nav-links ul {
-  color: #3c3c3c;
-  margin-right: 440px;
+.nav-links  {
   display: flex;
+  flex-direction: row;
+  color: #3c3c3c;
+  /* margin-right: 440px; */
+  justify-items: space-evenly;
   gap: 57px;
   list-style: none;
+  /* border: 5px solid red ; */
+  
 }
 .nav-links a {
   font-family: "Roboto", sans-serif;
