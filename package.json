@@ -1,0 +1,13 @@
+{
+  "name": "genz-fashion",
+  "version": "1.0.0",
+  "description": "A Gen-Z fashion website",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Build complete'",
+    "start": "echo 'Starting server'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
